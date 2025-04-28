@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Qr_Analyzer
 **Protect yourself before you scan!**  
 _A Flutter app that classifies QR codes as malicious or safe using Machine Learning models and heuristic analysis._
@@ -89,3 +90,16 @@ This app provides a **first layer of protection**.
 It **cannot guarantee 100% safety**.  
 Always stay cautious when scanning and visiting unknown links!
 Or maybe a template for the **heuristic function** inside the `heuristic_service.dart`? 📦
+=======
+# qrcode
+
+A new Flutter project.
+
+# some useful URLs:
+https://medium.com/@rishi_singh/scanning-qr-code-in-flutter-on-ios-and-android-b9caa26c4e74
+https://pub.dev/packages/openpgp
+
+# Security measures :
+The keys directory is created inside the project but added to the .gitignore file to not 
+be shown publicly
+>>>>>>> 72fd034 (Initial commit: Upload QR Analyzer Flutter app)
