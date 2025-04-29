@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:qrcode/cubit/qr_cubit.dart';
-import 'package:qrcode/widgets/header.dart';
 import '../cubit/qr_state.dart';
 import 'validurl.dart';
 import 'non_validurl.dart';

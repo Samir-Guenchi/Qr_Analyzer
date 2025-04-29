@@ -21,7 +21,7 @@ class AnalyzingHeader extends StatefulWidget {
 class _AnalyzingHeaderState extends State<AnalyzingHeader> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: double.infinity,
       height: 140, // Slightly reduced height to balance with footer
       child: Stack(

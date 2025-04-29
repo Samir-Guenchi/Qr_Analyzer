@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:qrcode/widgets/foot_main.dart';
-import 'package:qrcode/widgets/header.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});

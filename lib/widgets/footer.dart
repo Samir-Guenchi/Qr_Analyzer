@@ -3,11 +3,11 @@ import 'package:wave/config.dart';
 import 'package:wave/wave.dart';
 
 class FooterWidget extends StatelessWidget {
-  const FooterWidget({Key? key}) : super(key: key);
+  const FooterWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: double.infinity,
       height: 200, // Increased height for more wave visibility
       child: Stack(
