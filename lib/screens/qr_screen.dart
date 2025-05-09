@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:qrcode/cubit/qr_cubit.dart';
+import 'package:qrcode/services/api_service.dart';
 import 'package:qrcode/widgets/header.dart';
 import '../cubit/qr_state.dart';
 import 'validurl.dart';
@@ -15,7 +16,7 @@ class QrScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => QrCubit()..analyzeUrl(scannedUrl),
+      create: (_) => QrCubit(scannedUrl as ApiService)..analyzeUrl(scannedUrl),
       child: BlocBuilder<QrCubit, QrState>(
         builder: (context, state) {
           if (state is QrAnalyzing) return const AnalyzingPage();
